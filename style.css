@@ -1,0 +1,59 @@
+/* Style for the mind map container */
+.mind-map {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-x: auto;
+    /* overflow: auto; */
+    max-height: 80vh;
+    white-space: nowrap;  
+}
+
+/* Style for the nodes */
+.node {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s ease-in-out;
+    overflow: auto;
+}
+
+.node:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style for labels (node text) */
+.node label {
+    cursor: pointer;
+}
+
+/* Style for expanded nodes */
+.children {
+    display: none;
+    margin-left: 100px;
+    white-space: normal;
+}
+
+/* Style for child nodes */
+.node.expanded .children {
+    display: block;
+}
+
+
+/* Style for the mind map container */
+/* .mind-map {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    max-height: 80vh; 
+} */
+
