@@ -1,59 +1,58 @@
 /* Style for the mind map container */
 .mind-map {
     font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    overflow-x: auto;
-    /* overflow: auto; */
-    max-height: 80vh;
-    white-space: nowrap;  
+    padding-top: 3%;
 }
 
-/* Style for the nodes */
-.node {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.clickable-level-1{
+    background-color: #3498db; /* Blue background color */
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
     padding: 10px;
-    margin: 5px;
+    margin: 3px;
     cursor: pointer;
-    user-select: none;
     transition: background-color 0.2s ease-in-out;
-    overflow: auto;
 }
 
-.node:hover {
-    background-color: #e0e0e0;
+.clickable-level-1:hover{
+    background-color: #0672b9 !important;
+    background-color: #145581 !important;
 }
 
-/* Style for labels (node text) */
-.node label {
+.clickable-level-2{
+    background-color: #2ecc71;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 3px;
+    margin-left: 20px;
     cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
 }
 
-/* Style for expanded nodes */
-.children {
+.clickable-level-2:hover{
+    background-color:#02a747 !important;
+}
+
+.clickable-level-3{
+    background-color: #e67e22; /* Orange background color */
+    color: #fff; /* White text color */
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 6px;
+    margin: 3px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.clickable-level-3:hover{
+    background-color:#d56503 !important;
+}
+
+/* div.level-2{
     display: none;
-    margin-left: 100px;
-    white-space: normal;
-}
-
-/* Style for child nodes */
-.node.expanded .children {
-    display: block;
-}
-
-
-/* Style for the mind map container */
-/* .mind-map {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    overflow: auto;
-    max-height: 80vh; 
 } */
 
