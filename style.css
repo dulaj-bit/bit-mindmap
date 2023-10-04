@@ -4,6 +4,14 @@
     padding-top: 3%;
 }
 
+.stylish-heading {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    color: #007bff; /* Change this to your desired text color */
+    text-align: center;
+    text-transform: uppercase; /* Uppercase the text */
+}
+
 .clickable-level-1{
     background-color: #3498db; /* Blue background color */
     color: #fff;
