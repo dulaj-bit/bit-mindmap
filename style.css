@@ -7,13 +7,15 @@
 .stylish-heading {
     font-family: Arial, sans-serif;
     font-size: 32px;
-    color: #007bff; /* Change this to your desired text color */
+    color: #007bff;
     text-align: center;
-    text-transform: uppercase; /* Uppercase the text */
+    text-transform: uppercase; 
+    user-select:none;
 }
 
-.clickable-level-1{
-    background-color: #3498db; /* Blue background color */
+/* Level 1 */
+.clickable-level-1 {
+    background-color: #3498db;
     color: #fff;
     border-radius: 10px;
     font-weight: bold;
@@ -23,12 +25,12 @@
     transition: background-color 0.2s ease-in-out;
 }
 
-.clickable-level-1:hover{
+.clickable-level-1:hover {
     background-color: #0672b9 !important;
-    background-color: #145581 !important;
 }
 
-.clickable-level-2{
+/* Level 2 */
+.clickable-level-2 {
     background-color: #2ecc71;
     color: #fff;
     border-radius: 8px;
@@ -40,13 +42,14 @@
     transition: background-color 0.2s ease-in-out;
 }
 
-.clickable-level-2:hover{
-    background-color:#02a747 !important;
+.clickable-level-2:hover {
+    background-color: #02a747 !important;
 }
 
-.clickable-level-3{
-    background-color: #e67e22; /* Orange background color */
-    color: #fff; /* White text color */
+/* Level 3 */
+.clickable-level-3 {
+    background-color: #e28533;
+    color: #fff;
     border-radius: 6px;
     font-weight: bold;
     padding: 6px;
@@ -56,8 +59,76 @@
     transition: background-color 0.2s ease-in-out;
 }
 
-.clickable-level-3:hover{
-    background-color:#d56503 !important;
+.clickable-level-3:hover {
+    background-color: #de7520 !important;
+}
+
+/* Level 4 */
+.clickable-level-4 {
+    background-color: #9b59b6;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 3px;
+    margin-left: 60px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.clickable-level-4:hover {
+    background-color: #8c4aa4 !important;
+}
+
+/* Level 5 */
+.clickable-level-5 {
+    background-color: #f1c40f;
+    color: #000;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 4px;
+    margin: 3px;
+    margin-left: 80px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.clickable-level-5:hover {
+    background-color: #deb40d !important;
+}
+
+/* Level 6 */
+.clickable-level-6 {
+    background-color: #ff5c49;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 3px;
+    margin: 3px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.clickable-level-6:hover {
+    background-color: #e34a3b !important;
+}
+
+/* Level 7 */
+.clickable-level-7 {
+    background-color: #1abc9c;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 2px;
+    margin: 3px;
+    margin-left: 120px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.clickable-level-7:hover {
+    background-color: #159f83 !important;
 }
 
 /* div.level-2{
