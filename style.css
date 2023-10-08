@@ -13,6 +13,10 @@
     user-select:none;
 }
 
+label{
+    cursor: copy;
+}
+
 /* Level 1 */
 .clickable-level-1 {
     background-color: #3498db;
@@ -21,7 +25,7 @@
     font-weight: bold;
     padding: 10px;
     margin: 3px;
-    cursor: pointer;
+    cursor: copy;
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -38,7 +42,7 @@
     padding: 10px;
     margin: 3px;
     margin-left: 20px;
-    cursor: pointer;
+    cursor:copy;
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -55,7 +59,7 @@
     padding: 6px;
     margin: 3px;
     margin-left: 40px;
-    cursor: pointer;
+    cursor: copy;
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -72,7 +76,7 @@
     padding: 5px;
     margin: 3px;
     margin-left: 60px;
-    cursor: pointer;
+    cursor: copy;
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -89,7 +93,7 @@
     padding: 4px;
     margin: 3px;
     margin-left: 80px;
-    cursor: pointer;
+    cursor: copy;
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -106,7 +110,7 @@
     padding: 3px;
     margin: 3px;
     margin-left: 100px;
-    cursor: pointer;
+    cursor: copy;
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -123,7 +127,7 @@
     padding: 2px;
     margin: 3px;
     margin-left: 120px;
-    cursor: pointer;
+    cursor: copy;
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -131,7 +135,7 @@
     background-color: #159f83 !important;
 }
 
-/* div.level-2{
-    display: none;
-} */
+.linked label {
+    cursor: pointer;
+}
 
